@@ -1,0 +1,87 @@
+@charset "utf-8";
+/*CSS Document*/
+
+@font-face {
+	font-family: 'myfuente';
+	src: url('../font/CaviarDreams.ttf');
+}
+html{
+	background-color: #2f3331;
+}
+
+*{
+	font-family: 'myfuente';
+	font-size: 25px;	
+}
+
+#content_cacl{
+	width: 550px;
+	height: 266px;
+	background-color: burlywood;
+	margin: 150px auto;
+	box-shadow: 0px 0px 16px 18px  burlywood;
+	/*transition: width .15s ease-in-out;*/
+}
+fieldset{
+	margin: 5px 5px 5px 5px;
+	background-color: burlywood;
+}
+.cont_res{
+	margin-left: 85px;
+}
+#txt_calc{
+	width: 150px;
+	height: 30px;
+	color: white;
+	border-style: solid;
+}
+#lb2{
+	margin-left: 100px;
+
+}
+#lb3{
+	margin-left: 114px;
+
+}
+#lb4{
+	margin-left: 30px;
+
+}
+input{
+	width: 150px;
+	height: 30px;
+	background-color: #2f3331;
+
+}
+#total, #total_g, #itbis{
+	width: 200px;
+	height: 20px;
+	color: white;
+	font-size: 20px;
+	border-style: solid;
+}
+#br , #cr {
+	width: 115px;
+	height: 45px;
+	color: white;
+	float: right;
+	margin-right: 22px;
+	margin-top: 20px;
+}
+label{
+	font-size: 30px; 
+}
+ul{
+	margin: 0px;
+	font-size: 15px;
+	color: #f12c2c;
+}
+li{
+	list-style-image: url("../images/icon/meme.png");
+	font-size: 15px;
+	color: #f12c2c;
+}
+
+.en{
+	/*opacity: 0;*/
+}
